@@ -1,0 +1,277 @@
+body {
+	overflow-x: hidden;
+}
+
+ul,
+li {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+
+.wrapper {
+	padding-top: 50px
+}
+
+.container,
+.row {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.container-fluid {
+	max-width: 960px;
+	margin: 0 auto
+}
+
+.logo1 img {
+	width: 140px
+}
+
+.logo-box {
+	background: -webkit-linear-gradient(left, #1C1C4E, #3176B8);
+	border-bottom-right-radius: 20px;
+}
+
+.logo1 {
+	background: #FFF;
+	border-bottom-right-radius: 40px;
+	padding: 20px;
+}
+
+.logo2 {
+	line-height: 50px;
+	padding-left: 20px;
+	height: 50px;
+	overflow: hidden
+}
+
+.logo3 {
+	padding-left: 20px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.logo-box {
+	margin-top: -20px
+}
+
+.logo-box a {
+	color: #FFF;
+	font-weight: bold
+}
+
+.logo1-m img {
+	width: 100px;
+	height: 20px
+}
+
+
+.logo-m {
+	width: 100px;
+	margin: 15px 0 0 10px;
+	background-size: cover;
+}
+
+
+/*主题一*/
+
+.theme1 {
+	background: url(../img/ultrasound-l.jpg) no-repeat;
+	padding-top: 6%;
+	padding-bottom: 10%;
+	background-size: cover;
+	min-width: 960px;
+	margin: 0 auto;
+}
+
+.theme1-text {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 5%;
+}
+/*主题一移动端*/
+
+.theme1-m .theme1-text {
+	background: url(../img/ultrasound-l.jpg) no-repeat;
+	background-size: cover;
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-bottom: 7%;
+	
+}
+
+
+/*站点地图*/
+
+.siteMap {
+	background: #122B40;
+	color: #fff;
+}
+
+.siteMap h2 {
+	font-size: 24px;
+}
+
+.siteMap li a {
+	color: #fff;
+}
+
+
+/*________________ 详情页 ___________________*/
+
+.banner {
+	background: url(../img/ultrasound-l.jpg) no-repeat;
+	background-size: cover;
+}
+
+.detail-text {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-bottom: 20%
+}
+
+.detail-content h2 {
+	font-size: 16px;
+	color: #333;
+	margin-left: 10px;
+}
+
+.detail-content h1 {
+	text-align: center;
+	font-size: 18px;
+}
+
+.d-info {
+	border-bottom: 1px solid #ccc;
+	overflow: hidden;
+	margin: 0 10px 10px 10px;
+}
+
+.d-info p {
+	float: left;
+}
+
+.d-info .share {
+	float: right;
+}
+
+.detail-content .main {
+	text-align: center;
+}
+
+.detail-content .main img {
+	max-width: 320px;
+}
+
+.detail-content .main p {
+	text-align: left;
+	margin: 5px 0;
+	padding-left: 10px;
+}
+
+.page span {
+	display: block;
+	line-height: 1.6;
+}
+
+.page span:last-child {
+	background: #15A9D4;
+	width: 110px;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.page span:last-child a {
+	color: #fff;
+}
+
+
+/*返回顶部*/
+
+
+
+
+/*版权*/
+
+.footer {
+	background: -webkit-linear-gradient(top, #022573, #035086);
+}
+
+.weibo {
+	color: #15A9D4;
+	margin-top: 20px;
+}
+
+.weibo img {
+	width: 30px;
+	display: block;
+}
+
+.weibo2 {
+	color: #15A9D4;
+	margin-top: 50px;
+	max-width: 87px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.weibo2 img {
+	display: inline-block;
+	width: 30px;
+}
+
+.footer-logo {
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.menus {
+	width: 195px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.copyrigt {
+	text-align: center;
+}
+
+.copyrigt ul {
+	padding-top: 20px;
+}
+
+.copyrigt li {
+	display: inline-block;
+}
+
+.copyrigt li a {
+	color: #fff;
+	padding: 0 5px;
+	border-right: 1px solid #fff;
+}
+
+.copyrigt li:last-child a {
+	border: none;
+}
+
+.copyrigt p {
+	color: #fff;
+}
+
+
